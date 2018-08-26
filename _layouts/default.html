@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+<body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div class="wrapper">
+      <header>
+        <h1><a href="https://j-kallunki.github.io/just-kiddying/">Curated list of links to parents (Eng/Fin)</a></h1>
+
+        <p class="view"><a href="https://github.com/J-Kallunki/just-kiddying">Create PR for this page at <small>J-Kallunki/just-kiddying</small></a></p>
+        
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include search/search_form.html %}
+      </div>
+    {% endif %}
+    
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+        
+        <p>This page is maintained by <a href="https://github.com/J-Kallunki">J-Kallunki</a></p>
+        
+        <p><small>Hosted on GitHub Pages</p>
+      </footer>
+    </div>
+    
+    {% include scripts.html %}
+    
+  </body>
+</html>
