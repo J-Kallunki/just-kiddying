@@ -1,5 +1,3 @@
-# Curated list of links to parents (Eng/Fin)
-
 ## Tampere
 
 ### Tiedekerhot
