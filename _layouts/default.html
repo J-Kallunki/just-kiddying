@@ -3,14 +3,45 @@
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
 
   <head>
-    {% include head.html %}
-    {% include head/custom.html %}
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Curated list of links to parents (Eng/Fin)</title>
+<meta name="generator" content="Jekyll v3.7.3.1" />
+<meta property="og:title" content="Curated list of links to parents (Eng/Fin)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Curated list of links to parents (Eng/Fin)" />
+<meta property="og:description" content="Curated list of links to parents (Eng/Fin)" />
+<link rel="canonical" href="https://j-kallunki.github.io/just-kiddying/" />
+<meta property="og:url" content="https://j-kallunki.github.io/just-kiddying/" />
+<meta property="og:site_name" content="Curated list of links to parents (Eng/Fin)" />
+<script type="application/ld+json">
+{"description":"Curated list of links to parents (Eng/Fin)","@type":"WebSite","url":"https://j-kallunki.github.io/just-kiddying/","name":"just-kiddying","headline":"Curated list of links to parents (Eng/Fin)","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+
+{% if site.head_scripts %}
+  {% for script in site.head_scripts %}
+    {% if script contains "://" %}
+      {% capture script_path %}{{ script }}{% endcapture %}
+    {% else %}
+      {% capture script_path %}{{ script | relative_url }}{% endcapture %}
+    {% endif %}
+    <script src="{{ script_path }}"></script>
+  {% endfor %}
+{% endif %}
+    
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    
   </head>
 
 <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
 
     <div class="wrapper">
       <header>
@@ -24,24 +55,14 @@
       {{ content }}
 
       </section>
-      
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include search/search_form.html %}
-      </div>
-    {% endif %}
     
       <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
         
         <p>This page is maintained by <a href="https://github.com/J-Kallunki">J-Kallunki</a></p>
         
         <p><small>Hosted on GitHub Pages</p>
       </footer>
     </div>
-    
-    {% include scripts.html %}
     
   </body>
 </html>
