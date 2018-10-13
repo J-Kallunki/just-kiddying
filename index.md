@@ -1,5 +1,6 @@
 # Kirjallisuus
 
+- [Linda Liukas: Hello Ruby (fin/eng)](https://www.helloruby.com/)
 - [Kuinka kasvattaa diginatiivi](https://kustantamo.sets.fi/kirja/kuinka-kasvattaa-diginatiivi/)
 
 # Tampere
