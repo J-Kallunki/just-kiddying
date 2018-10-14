@@ -1,3 +1,14 @@
+# Apps
+
+## Play and watch
+
+- [Nuottiniitty](https://itunes.apple.com/fi/app/nuottiniitty/id953381290?l=fi&mt=8)
+- [Lasten areena](https://itunes.apple.com/fi/app/yle-lasten-areena/id542334131?l=fi&mt=8)
+
+## Manage
+
+- [Life360](https://itunes.apple.com/us/app/find-my-family-friends-phone/id384830320?mt=8)
+
 # Kirjallisuus
 
 - [Linda Liukas: Hello Ruby (fin/eng)](https://www.helloruby.com/)
