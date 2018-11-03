@@ -1,5 +1,7 @@
 # Apps
 
+- [Viihdevintiöt-blogi](http://viihdevintiot.com/)
+
 ## Play and watch
 
 - [Nuottiniitty](https://itunes.apple.com/fi/app/nuottiniitty/id953381290?l=fi&mt=8)
